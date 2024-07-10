@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        .hero {
+            background-image: url('https://d2rdhxfof4qmbb.cloudfront.net/wp-content/uploads/20180730103242/World-Landmarks.jpg');
+            background-size: cover;
+            background-position: center;
+            color: rgb(243, 203, 6);
+            text-align: center;
+            padding: 100px 0;
+        }
+        .hero h1 {
+            font-size: 4rem;
+        }
+        .hero p {
+            font-size: 1.5rem;
+        }
+        .footer {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Eagles Dreams</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Destinations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tours</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="container">
+            <h1>Explore the World with Us</h1>
+            <p>Adventure starts with Us</p>
+            <a href="#" class="btn btn-primary btn-lg">Get Started</a>
+        </div>
+    </div>
+
+    <!-- Destinations Section -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Popular Destinations</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://th.bing.com/th/id/OIP.a2zwqkizJtvN7PFT8kgfOwHaLH?w=192&h=288&c=7&r=0&o=5&dpr=1.5&pid=1.7" class="card-img-top" alt="Destination 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Eiffel Tower, Paris</h5>
+                        <p class="card-text">
+                            Discover the heart of Paris at the Eiffel Tower! Soaring 324 meters high, this iconic iron marvel offers stunning city views. 
+                            A must-see landmark for any traveler!</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://th.bing.com/th/id/OIP.YH9cPw8gmOF7D0l6fKCK2wHaE5?w=304&h=201&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Destination 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Leaning Tower of Pisa , Italy</h5>
+                        <p class="card-text">Visit the Leaning Tower of Pisa, Italy's most intriguing architectural wonder. 
+                            Snap a photo and climb the 56-meter tower for unforgettable memories and views!</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://th.bing.com/th/id/OIP.HRnYMXmME68gOuX1JwiC2QHaEj?w=244&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" class="card-img-top" alt="Destination 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Disneyland Park, Hongkong</h5>
+                        <p class="card-text">Experience the magic at Hong Kong Disneyland! 
+                            Meet your favorite Disney characters, enjoy thrilling rides, and immerse yourself in enchanting adventures. Fun for all ages!</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tours Section -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Our Tour Packages</h2>
+        <div class="accordion" id="toursAccordion">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Paris Adventure
+                        </button>
+                    </h2>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#toursAccordion">
+                    <div class="card-body">
+                        Eiffel Tower Experience
+                        Embark on an unforgettable journey to the Eiffel Tower! Enjoy priority access, explore the tower's three levels, and savor panoramic views of Paris. 
+                        Includes a guided tour and optional champagne toast at the summit.
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Italian Dream
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#toursAccordion">
+                    <div class="card-body">
+                        Leaning Tower of Pisa
+                        Discover the magic of the Leaning Tower of Pisa! This package includes skip-the-line entry, a guided tour revealing the tower's history, and time to climb to the top for breathtaking views. 
+                        Perfect for capturing iconic photos!
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Family Fun
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#toursAccordion">
+                    <div class="card-body">
+                        Hong Kong Disneyland Adventure
+                        Immerse yourself in the enchantment of Hong Kong Disneyland! This package includes park tickets, FastPass access to popular rides, and a meet-and-greet with beloved Disney characters.
+                        Ideal for families and Disney fans!
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Contact Us: +113456778889</h2>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="destination">Destination of Interest</label>
+                <input type="text" class="form-control" id="destination" placeholder="Desired Destination">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <p>&copy; Eagles Dream.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+
+</html>
